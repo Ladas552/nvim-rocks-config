@@ -20,8 +20,9 @@ It adds override, and also uses home-manager to create synlinks for reproducable
 
 [typst-previewer.nvim](https://github.com/chomosuke/typst-preview.nvim) can't open the web based preview, so I got a self made autocmd for typst
 
-treesitter-legacy-api doesn't seem to work without this commands, need to automate it.
+[nvim-treesitter-legacy-api](https://luarocks.org/modules/neorocks/nvim-treesitter-legacy-api) doesn't seem to work without these commands, need to automate it.
 ```
+~
 ❯ mkdir -p ~/.cache/Nvim/lua-inc
 ~
 ❯ ln -s $(nix eval --raw nixpkgs#lua5_1)/include/lua.h ~/.cache/Nvim/lua-inc/
