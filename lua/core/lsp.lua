@@ -292,8 +292,10 @@ vim.lsp.config.timymist = {
   root_markers = { "src.typ", ".git", vim.uv.cwd() },
   filetypes = { "typ", "typst" },
   settings = {
-    exportPdf = "onType",
+    exportPdf = "onSave",
     outputPath = "$root/$name",
+    fontPaths = "./fonts",
+    formatterMode = "typstyle",
   },
 }
 vim.lsp.enable("timymist")
