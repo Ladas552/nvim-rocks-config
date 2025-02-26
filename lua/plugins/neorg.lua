@@ -3,7 +3,7 @@ require("neorg").setup({
     ["core.defaults"] = {},
     ["core.concealer"] = {
       config  = {
-        icon_preset = "diamond"
+        icon_preset = "diamond",
       }
     },
     ["core.dirman"] = {
@@ -21,38 +21,40 @@ require("neorg").setup({
       config = {
         timezone = "implicit-local",
         type = "empty",
-        undojoin_updates = false
+        undojoin_updates = false,
+        -- IF true, Broken on nightly: https://github.com/nvim-neorg/neorg/issues/1579
+        update_date = false,
       },
     },
     ["core.integrations.telescope"] = {},
     ["core.journal"] = {
       config = {
         journal_folder = "/./",
-        workspace = "journal"
+        workspace = "journal",
       }
     },
     ["core.keybinds"] = {
       config = {
         default_keybinds = true,
-        neorg_leader = "<Leader><Leader>"
+        neorg_leader = "<Leader><Leader>",
       }
     },
     ["core.summary"] = {},
     ["core.tangle"] = {
       config = {
         report_on_empty = true,
-        tangle_on_write = false
+        tangle_on_write = false,
       }
     },
     ["core.completion"] = {
       config = {
         engine = {
-          module_name = "external.lsp-completion"
+          module_name = "external.lsp-completion",
         }
       },
     },
     -- External modules
-    ["external.interim-ls"] = {
+    ["external.interim-ls"] = { -- rename doesn't work on nightly
       config = {
         completion_provider = {
           categories = true,
