@@ -30,8 +30,9 @@ for _, keys in ipairs(esc_keys[vim.g.layout]) do
   kbd("i", keys, "<esc>")
 end
 
--- Do not copy on paste
-kbd("v", "p", '"_dP')
+-- Helix comments
+kbd("n","<C-c>","norm gcc<CR>")
+kbd("v","<C-c>","norm gc<CR>")
 
 -- Stay in visual mode after indenting with < or >
 kbd("v", ">", ">gv")

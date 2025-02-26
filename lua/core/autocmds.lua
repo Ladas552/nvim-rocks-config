@@ -16,18 +16,6 @@ au({ "InsertLeave", "FocusLost" }, {
   command = "silent! write",
 })
 
--- Update file on external changes
-au({ "FocusGained", "TermClose", "TermLeave" }, {
-  pattern = "<buffer>",
-  command = "checktime",
-})
-
--- Align windows when resizing Neovim
-au("VimResized", {
-  pattern = "*",
-  command = "wincmd =",
-})
-
 -- Auto cd to current buffer path
 au("BufEnter", {
   pattern = "*",

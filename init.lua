@@ -27,11 +27,11 @@ local rocks_config = {
 -- HACK: Nix does not expose development headers by default,
 -- so I extract the relevant header files from the lua5.1
 -- tarball and it seems to do the trick.
-rocks_config.luarocks_config = {
-  variables = {
-    LUA_INCDIR = vim.env.HOME .. "/.cache/Nvim/lua-inc",
-  },
-}
+-- rocks_config.luarocks_config = {
+--   variables = {
+--     LUA_INCDIR = vim.env.HOME .. "/.cache/Nvim/lua-inc",
+--   },
+-- }
 
 vim.g.rocks_nvim = rocks_config
 -- Configure the package path (so that plugin code can be found)

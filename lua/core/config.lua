@@ -40,7 +40,7 @@ vim.opt.backspace = "indent,eol,start" -- allow backspace on indent, end of line
 
 
 -- Use clipboard outside Neovim
-vim.opt.clipboard = "unnamedplus"
+-- vim.opt.clipboard = "unnamedplus"
 -- Enable mouse input
 vim.opt.mouse = "a"
 
