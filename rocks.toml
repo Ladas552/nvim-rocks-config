@@ -47,7 +47,7 @@ rev = "v1.9.0"
 
 [plugins."blink.cmp"]
 git = "saghen/blink.cmp"
-rev = "v0.13.0"
+rev = "v0.13.1"
 
 [plugins.nvim-treesitter]
 git = "nvim-treesitter/nvim-treesitter"
