@@ -14,24 +14,7 @@ It adds override, and also uses home-manager to create synlinks for reproducable
 `meta.isTermux` is my custom attribute used in NixOS, just delete it and use package list as normal
 
 # TODO
-[Norg treesitter parser](https://github.com/nvim-neorg/tree-sitter-norg) parser doesn't work. So no Neorg for now
-
-[image.nvim](https://github.com/3rd/image.nvim) can't find magick implementation, so no images in terminal
-
 [typst-previewer.nvim](https://github.com/chomosuke/typst-preview.nvim) can't open the web based preview, so I got a self made autocmd for typst
-
-[nvim-treesitter-legacy-api](https://luarocks.org/modules/neorocks/nvim-treesitter-legacy-api) doesn't seem to work without these commands, need to automate it.
-```
-~
-❯ mkdir -p ~/.cache/Nvim/lua-inc
-~
-❯ ln -s $(nix eval --raw nixpkgs#lua5_1)/include/lua.h ~/.cache/Nvim/lua-inc/
-~
-❯ ln -s $(nix eval --raw nixpkgs#lua5_1)/include/luaconf.h ~/.cache/Nvim/lua-inc/
-~
-❯ ln -s $(nix eval --raw nixpkgs#lua5_1)/include/lualib.h ~/.cache/Nvim/lua-inc/
-~
-❯ ln -s $(nix eval --raw nixpkgs#lua5_1)/include/lauxlib.h ~/.cache/Nvim/lua-inc/
 ```
 # Credits
 
@@ -45,5 +28,3 @@ I am not the one to write most of this
 NTBBloodbath's [neovim config](https://github.com/NTBBloodbath/nvim), defaults are his.
 
 Rishabh's [neovim config](https://github.com/Rishabh672003/Neovim), for all the nightly goodies
-
-
