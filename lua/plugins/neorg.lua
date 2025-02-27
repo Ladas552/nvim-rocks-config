@@ -64,4 +64,3 @@ require("neorg").setup({
   },
 })
 
-

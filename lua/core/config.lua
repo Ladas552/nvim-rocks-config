@@ -71,7 +71,8 @@ vim.opt.termguicolors = true
 -- Columns and characters
 -- vim.opt.signcolumn = "auto:1-3"
 vim.opt.foldenable = true
-vim.opt.foldlevel = 999
+vim.opt.foldlevel = 99
+vim.wo.foldlevel = 99
 vim.opt.foldmethod = "expr"
 vim.opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
 -- vim.opt.foldcolumn = "auto:2"
