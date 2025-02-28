@@ -6,16 +6,24 @@ It is based on Neovim-nightly
 # Why?
 I want to try new things, I got pretty confident with Lua, getting to work it out on NixOS too
 
+# How to use on Linux?
+
+Just download neovim, put everything in `~/.config/nvim/`, open it and `:Rocks sync`
+
+It doesn't provide any treesitter binaries, because on Nix I just use nixpkgs. So download TreeSitter-legacy-API or something. And compile them.
+
+Everything else should work tho.
+
 # How to use on NixOS?
 You can look in my NixOS config for [Neovim module](https://github.com/Ladas552/Nix-Is-Unbreakable/blob/master/homeModules/neovim/default.nix). It contains the override and some packages to make my config work
 
-It adds override, and also uses home-manager to create synlinks for reproducable rebuilds.
+It adds override, and also uses home-manager to create symlinks for reproducable rebuilds.
 
 `meta.isTermux` is my custom attribute used in NixOS, just delete it and use package list as normal
 
 # TODO
 [typst-previewer.nvim](https://github.com/chomosuke/typst-preview.nvim) can't open the web based preview, so I got a self made autocmd for typst
-```
+
 # Credits
 
 I am not the one to write most of this
