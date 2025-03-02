@@ -25,6 +25,7 @@ neorg-telescope = "1.2.2"
 orgmode = "0.4.32"
 "telescope.nvim" = "scm"
 friendly-snippets= "scm"
+"auto-save.nvim" = "scm"
 
 [plugins."barbar.nvim"]
 git = "romgrk/barbar.nvim"

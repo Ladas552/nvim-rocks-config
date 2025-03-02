@@ -10,12 +10,6 @@ au("TextYankPost", {
   end,
 })
 
--- Autosave
-au({ "InsertLeave", "FocusLost" }, {
-  pattern = "<buffer>",
-  command = "silent! write",
-})
-
 -- Auto cd to current buffer path
 au("BufEnter", {
   pattern = "*",
