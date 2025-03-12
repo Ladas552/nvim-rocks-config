@@ -10,7 +10,7 @@ auto_setup = true
 # If the plugin name contains a dot then you must add quotes to the key name!
 [plugins]
 "rocks-config.nvim" = "3.1.0"
-"rocks-git.nvim" = "2.5.2"
+"rocks-git.nvim" = "2.5.3"
 "rocks.nvim" = "2.43.1"
 "which-key.nvim" = "3.17.0"
 neogit = "2.0.0"
@@ -22,7 +22,6 @@ neorg = "9.2.0"
 neorg-interim-ls = "2.1.1"
 neorg-conceal-wrap = "1.0.1"
 neorg-telescope = "1.2.2"
-orgmode = "0.4.32"
 "telescope.nvim" = "scm"
 friendly-snippets= "scm"
 "auto-save.nvim" = "scm"
@@ -42,4 +41,12 @@ rev = "v0.13.1"
 [plugins.nvim-treesitter]
 git = "nvim-treesitter/nvim-treesitter"
 rev = "v0.9.3"
+
+[plugins.orgmode]
+git = "https://github.com/nvim-orgmode/orgmode"
+rev = "0.5.2"
+
+[plugins."img-clip.nvim"]
+git = "https://github.com/hakonharnes/img-clip.nvim"
+rev = "v0.6.0"
 
