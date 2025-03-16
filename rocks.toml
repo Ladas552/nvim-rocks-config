@@ -11,7 +11,7 @@ auto_setup = true
 [plugins]
 "rocks-config.nvim" = "3.1.0"
 "rocks-git.nvim" = "2.5.3"
-"rocks.nvim" = "2.43.1"
+"rocks.nvim" = "2.44.0"
 "which-key.nvim" = "3.17.0"
 neogit = "2.0.0"
 nvim-web-devicons = "0.100"
