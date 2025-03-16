@@ -84,7 +84,6 @@ local function disable_ui_settings()
   local opts = {
     number = false,
     relativenumber = false,
-    signcolumn = "no",
     foldcolumn = "0",
     foldlevel = 999,
   }
