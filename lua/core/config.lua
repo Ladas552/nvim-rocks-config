@@ -56,7 +56,7 @@ vim.opt.undofile = true
 vim.opt.smoothscroll = true
 
 -- Smooth mouse scrolling
-vim.opt.mousescroll = { "hor:1", "ver:1" }
+vim.opt.mousescroll = { "hor:6", "ver:1" }
 
 -- Confirmation prompts for unsaved files, etc
 vim.opt.confirm = false
