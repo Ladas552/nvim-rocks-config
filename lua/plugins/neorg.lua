@@ -14,6 +14,7 @@ require("neorg").setup({
           journal = "~/Documents/Norg/Journal",
           life = "~/Documents/Norg/Life",
           work = "~/Documents/Norg/Study",
+          archive = "~/Documents/Norg/Archive",
         },
       },
     },
