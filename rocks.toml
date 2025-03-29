@@ -36,7 +36,7 @@ rev = "v1.9.0"
 
 [plugins."blink.cmp"]
 git = "saghen/blink.cmp"
-rev = "v0.14.0"
+rev = "v1.0.0"
 
 [plugins.nvim-treesitter]
 git = "nvim-treesitter/nvim-treesitter"
@@ -44,7 +44,7 @@ rev = "v0.9.3"
 
 [plugins.orgmode]
 git = "https://github.com/nvim-orgmode/orgmode"
-rev = "0.5.2"
+rev = "0.5.3"
 
 [plugins."img-clip.nvim"]
 git = "https://github.com/hakonharnes/img-clip.nvim"
