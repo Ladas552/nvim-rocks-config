@@ -23,8 +23,6 @@ require("neorg").setup({
         timezone = "implicit-local",
         type = "empty",
         undojoin_updates = false,
-        -- IF true, Broken on nightly: https://github.com/nvim-neorg/neorg/issues/1579
-        update_date = false,
       },
     },
     ["core.integrations.telescope"] = {},
