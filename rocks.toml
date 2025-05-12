@@ -25,6 +25,7 @@ neorg-telescope = "1.2.2"
 friendly-snippets= "scm"
 "auto-save.nvim" = "scm"
 nvim-web-devicons = "0.100"
+"snacks.nvim" = "2.22.0"
 
 [plugins."barbar.nvim"]
 git = "romgrk/barbar.nvim"
@@ -49,4 +50,3 @@ rev = "0.6.0"
 [plugins."img-clip.nvim"]
 git = "https://github.com/hakonharnes/img-clip.nvim"
 rev = "v0.6.0"
-
