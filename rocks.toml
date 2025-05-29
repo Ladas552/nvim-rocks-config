@@ -9,9 +9,9 @@ auto_setup = true
 # List of Neovim plugins to install alongside their versions.
 # If the plugin name contains a dot then you must add quotes to the key name!
 [plugins]
-"rocks-config.nvim" = "3.1.0"
+"rocks-config.nvim" = "3.1.1"
 "rocks-git.nvim" = "2.5.3"
-"rocks.nvim" = "2.44.0"
+"rocks.nvim" = "2.45.0"
 "which-key.nvim" = "3.17.0"
 neogit = "2.0.0"
 "oil.nvim" = "2.15.0"
@@ -25,6 +25,7 @@ neorg-telescope = "1.2.2"
 friendly-snippets= "scm"
 "auto-save.nvim" = "scm"
 nvim-web-devicons = "0.100"
+orgmode= "0.6.0"
 
 [plugins."barbar.nvim"]
 git = "romgrk/barbar.nvim"
@@ -32,19 +33,15 @@ rev = "v1.9.1"
 
 [plugins.nvim]
 git = "catppuccin/nvim"
-rev = "v1.9.0"
+rev = "v1.10.0"
 
 [plugins."blink.cmp"]
 git = "saghen/blink.cmp"
-rev = "v1.0.0"
+rev = "v1.3.1"
 
 [plugins.nvim-treesitter]
 git = "nvim-treesitter/nvim-treesitter"
 rev = "v0.9.3"
-
-[plugins.orgmode]
-git = "https://github.com/nvim-orgmode/orgmode"
-rev = "0.5.3"
 
 [plugins."img-clip.nvim"]
 git = "https://github.com/hakonharnes/img-clip.nvim"
