@@ -26,6 +26,7 @@ friendly-snippets= "scm"
 "auto-save.nvim" = "scm"
 nvim-web-devicons = "0.100"
 orgmode= "0.6.0"
+"snacks.nvim" = "2.22.0"
 
 [plugins."barbar.nvim"]
 git = "romgrk/barbar.nvim"
@@ -46,4 +47,3 @@ rev = "v0.9.3"
 [plugins."img-clip.nvim"]
 git = "https://github.com/hakonharnes/img-clip.nvim"
 rev = "v0.6.0"
-
